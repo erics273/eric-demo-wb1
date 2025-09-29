@@ -8,7 +8,7 @@ public class Conditionals {
 
         //i want to ask my code a question and do something based
         //on the answer
-        if(age >= 21){
+        if(age == 21 || age > 40 || age <=3){
             //this is what happens if the condition above is true
             System.out.println("Yay I am 21 or over");
         }else{
@@ -19,7 +19,7 @@ public class Conditionals {
         //lets try else-if
         String favColor = "purple";
 
-        if(favColor.equals("red")){
+        if( favColor.equals("red") || favColor.equals("green")){
             System.out.println("You are a viking");
         } else if (favColor.equals("black")) {
             System.out.println("You are a pirate");
